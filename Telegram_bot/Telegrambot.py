@@ -61,7 +61,7 @@ dispatcher.add_handler(electronic_summary_handler)
 def fnc1(update, context):
     bot.send_message(
         chat_id=update.effective_chat.id,
-        text="Welcome to the www.praveensingampalli.com ",
+        text="Welcome to the Indian Gaming Hub ",
         )
 start_value2=CommandHandler('start', fnc1)
 dispatcher.add_handler (start_value2)
@@ -70,7 +70,7 @@ dispatcher.add_handler (start_value2)
 def fnc2(update, context):
     bot.send_message(
         chat_id=update.effective_chat.id,
-        text="tutorial link: wwww.youtube.com/praveensingampalli ",
+        text="tutorial link: https://www.youtube.com/@IndianGamingHub ",
         )
 start_value=CommandHandler('youtube', fnc2)
 dispatcher.add_handler (start_value)
